@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(6, 6, 26);
+}
+
+.box1, .box2, .box3 {
+    border: 1px solid rgb(35, 67, 80);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.box2, .box3{
+    display: flex;
+    justify-content: space-around;
+}
+.date {
+   color: rgb(17, 146, 168);
+   margin-left: auto;
+   margin-right: auto;
+   width: 100px;
+   height: 20px;
+   font-size: 30px;
+   display: flex;
+}
+.clock {
+    color: rgb(17, 146, 168);
+    display: flex;
+    font-size: 140px;
+    justify-content: center;
+    display: flex;
+}
+
+.secMir {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+.secondM{
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 146, 168);
+    font-size: 80px;
+    height: 100px;
+    margin-top: 30px;
+}
+button {
+    background-color: rgb(6, 6, 26);
+    color: rgb(17, 146, 168);
+    border-radius: 3px;
+    border: 1px solid rgb(213, 236, 241);
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+}
+.table {
+    border: 1px solid rgb(131, 155, 161);
+    width: 400px;
+    height: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(17, 146, 168);
+    text-align: center;
+    font-size: 25px;
+}
+
+.timerBox1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 16px;
+    color: rgb(17, 146, 168);
+}
+.timerMin{
+    font-size: 85px ;
+    margin-left: 10px;
+}
+.text {
+    font-size: 23px;
+}
+
+.plus, .minus {
+   width: 25px;
+   height: 25px;
+   margin-top: 10px;
+   margin-left: 15px;
+}
+
+.timerBox2 {
+    width: 200px;
+    height: 200px;
+}
+.timer {
+    margin-top: 15px;
+    display: flex;
+    font-size: 87px;
+    color: rgb(17, 146, 168);
+}
+.startT, .stopT, .resetT {
+    margin-top: 33px;
+}
